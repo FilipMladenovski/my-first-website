@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    background-color: #f3f3f3;
+    color: darkslategray;
+}
+
+header,
+nav,
+article,
+footer {
+    border: 1px solid black;
+}
+
+nav {
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+h4 {
+    color: rgb(9, 181, 43);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    background-color: transparent;
+    font-style: italic;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    text-decoration-line: underline;
+}
+
+h2 {
+    color: rgb(146, 18, 18);
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+    text-align: center;
+}
+
+.nav-a {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nav-a:link {
+    text-decoration: active;
+    color: blue;
+}
+
+.nav-a:visited {
+    color: purple;
+}
+
+.nav-a:hover {
+    color: yellow;
+}
+
+.nav-a:focus {
+    color: brown;
+}
+
+
+.aside-a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+.aside-a:visited {
+    color: purple;
+}
+
+.aside-a:hover {
+    color: red;
+}
+
+.aside-a:focus {
+    color: brown;
+}
+
+.aside-a:active {
+    color: green;
+}
+
+p {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+.bolded {
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+
+.italic {
+    font-style: italic;
+    color: black;
+    border: none;
+}
+
+#span {
+    display: inline;
+    height: 70px;
+    width: 150px;
+    border: 1px solid red;
+    color: white;
+    background-color: black;
+    margin: 10px;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: black;
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+
+}
+
+.text-block {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
